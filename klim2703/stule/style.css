@@ -1,0 +1,27 @@
+body ,h1,h2,h3,h4,h5,p,a {
+    margin: 0;
+}
+
+.header_container{
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(127, 140, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.header_content{
+    max-width: 1200px;
+    background-color: rgb(59, 116, 170);
+    display: flex;
+    flex: 5px;
+    justify-content: flex-start ;
+}
+
+.menu{
+    display: flex;
+    flex: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
